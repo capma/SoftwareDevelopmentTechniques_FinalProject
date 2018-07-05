@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MM.Model.Guest">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAAQAAAAEIAAAACAAAACAAAAAg=</HashCode>
+      <FileName>Guest\Guest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM.Model.Reservation" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEGECABB5AACAIQAABBgAAAQAAAAEEACgAAAwo=</HashCode>
+      <FileName>Reservation\Reservation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MM.Model.ReservationList">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAGAAABBQAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Reservation\ReservationList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM.Model.Room">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAACIAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Room\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM.Model.RoomType">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAAQAAAAAAkAIAAIACAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoomType\Base\RoomType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM.Model.DoubleRoom">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoomType\Derived\DoubleRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM.Model.GuestRoom">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoomType\Derived\GuestRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM.Model.SingleRoom">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoomType\Derived\SingleRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MM.Model.SuiteRoom">
+    <Position X="2" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoomType\Derived\SuiteRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MM.Model.RoomTypeName">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAACAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>RoomType\Base\RoomType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
